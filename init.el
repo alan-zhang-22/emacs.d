@@ -150,6 +150,9 @@
 (require 'init-zig)
 (require 'init-terminals)
 
+(require 'init-ellama)
+(require 'init-term)
+
 ;; Extra packages which don't require any configuration
 
 (require-package 'sudo-edit)
