@@ -42,6 +42,9 @@
 (require 'init-elpa)      ;; Machinery for installing required packages
 (require 'init-exec-path) ;; Set up $PATH
 
+;; set font size
+(set-face-attribute 'default nil :height 180)
+
 
 ;; General performance tuning
 (when (require-package 'gcmh)
@@ -133,8 +136,8 @@
 (require 'init-paredit)
 (require 'init-lisp)
 (require 'init-sly)
-(require 'init-clojure)
-(require 'init-clojure-cider)
+;; (require 'init-clojure)
+;; (require 'init-clojure-cider)
 
 (when *spell-check-support-enabled*
   (require 'init-spelling))
