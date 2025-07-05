@@ -155,6 +155,7 @@
 
 (require 'init-ellama)
 (require 'init-term)
+(require 'init-cpp)
 
 ;; Extra packages which don't require any configuration
 
