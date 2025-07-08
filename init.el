@@ -155,6 +155,8 @@
 
 (require 'init-ellama)
 (require 'init-term)
+(require 'init-llm-client)
+(require 'init-content-review)
 (require 'init-cpp)
 
 ;; Extra packages which don't require any configuration
