@@ -58,3 +58,4 @@ site-lisp/package/
 /projects
 /forge-*.sqlite
 /projectile.cache
+gptel-api-key.txt
