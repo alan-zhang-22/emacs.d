@@ -158,6 +158,8 @@
 (require 'init-llm-client)
 (require 'init-content-review)
 (require 'init-cpp)
+(require 'init-llm-client)
+(require 'init-aidermacs)
 
 ;; Extra packages which don't require any configuration
 

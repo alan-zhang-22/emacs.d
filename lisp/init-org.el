@@ -397,6 +397,9 @@ typical word processor."
       (sql . t)
       (sqlite . t)))))
 
+;;; visual line mode
+(add-hook 'text-mode-hook 'visual-line-mode)
+(add-hook 'org-mode-hook 'visual-line-mode)
 
 (provide 'init-org)
 ;;; init-org.el ends here
